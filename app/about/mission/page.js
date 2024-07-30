@@ -1,10 +1,15 @@
 import React from 'react';
+import Image from 'next/image';
+import Button from '@/app/components/button';
+import thumbnail from '@/public/images/thumbnail.png'
 
 const page = () => {
     return (
-        <div className='mt-10'>
-            Our Mission
-        </div>
+        <main className='mt-10'>
+            <div>Our Mission</div>
+            <Image placeholder='blur' src={thumbnail} alt='' />
+            <Button />
+        </main>
     );
 };
 
