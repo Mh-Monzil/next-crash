@@ -4,7 +4,7 @@ import React from 'react';
 
 const page = async () => {
     const posts = await getAllPosts();
-    console.log(posts);
+    // console.log(posts);
     return (
         <div className='mt-6'>
             <h1 className='text-3xl font-bold text-rose-500'>All Posts</h1>
